@@ -3,3 +3,39 @@
     padding: 5px 0px 0px 0px;
     float: right;
 }
+
+#kitchen {
+    background-image: url("../images/kitchenback.jpg");
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+body{
+    background: #427EA1;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+#me {
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 25%;
+}
+
+#flat {
+    margin: 0;
+}
+
+.card {
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color: #6FBA43; */
+}
+
+/* 
+font-family: 'PT Sans', sans-serif;
+ */
