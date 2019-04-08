@@ -21,11 +21,20 @@ body {
     margin-left: 20px;
 }
 
-#me {
+#me-pic {
     border-radius: 50%;
-    position: absolute;
+}
+
+#me{
     top: 150px;
     left: 25%;
+    position: absolute;
+}
+
+#quote{
+    position: relative;
+    top: 3em;
+    left: 2em;
 }
 
 #flat {
@@ -60,12 +69,17 @@ section {
     border: 1px solid black;
 }
 
-#email {
-    right: 8px;
+#kiddos{
+    
 }
 
-#resume {
-    right: 75px;
+#resume{
+    margin-left: 10px;
+    background-color: #F44336;
+}
+
+#email{
+    background-color: #F44336;
 }
 
 /* 
