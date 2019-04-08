@@ -1,0 +1,3 @@
+$("#aboutMeClick").on("click", function () {
+    
+});

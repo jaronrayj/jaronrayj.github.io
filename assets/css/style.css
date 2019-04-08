@@ -8,9 +8,10 @@
     background-image: url("../images/kitchenback.jpg");
     height: 500px;
     background-size: 100% 100%;
+    margin-bottom: 0;
 }
 
-body{
+body {
     background: #427EA1;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.5em;
@@ -31,9 +32,40 @@ body{
     margin: 0;
 }
 
+#skills, #projects, #contact {
+    position: relative;
+    bottom: 64px;
+}
+
+#skills-content {
+    padding: 20px;
+    background-color: white;
+    border: none;
+}
+
 .card {
     font-family: 'Josefin Sans', sans-serif;
-    /* background-color: #6FBA43; */
+}
+
+.btn-floating.btn-large.halfway-fab {
+    bottom: 25px;
+}
+
+.nav {
+
+}
+
+section {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#email {
+    right: 8px;
+}
+
+#resume {
+    right: 75px;
 }
 
 /* 

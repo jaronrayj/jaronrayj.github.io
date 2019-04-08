@@ -20,12 +20,16 @@
         <nav>
             <div class="nav-wrapper teal">
                 <a href="./index.html" class="brand-logo left">Jaron Johnson</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="./index.html">About Me</a></li>
-                    <li><a href="./projects.html">Projects</a></li>
-                    <li><a href="./contact.html">Contact Me</a></li>
-
+                <ul class="right hide-on-med-and-down collapse navbar-collapse">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">About Me</a></li>
                 </ul>
+                <!-- <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+                   <a href="#skills"><li>Skills</li></a>
+                   <a href="#projects"><li>Projects</li></a>
+                   <a href="#contact"><li>About Me</li></a>
+                </ul> -->
             </div>
             <ul>
                 </li>
@@ -45,93 +49,176 @@
         <div class="top-background-img stellar-bg img-fluid" data-stellar-background-ratio="0.2">
         </div>
     </div>
+    <img src="./assets/images/SmileyJare.png" id="me" alt="avatar">
+
+    <div id="skills"></div>
+    <section id="skills-title" class="teal center white-text">
+        <h2>Skills</h2>
+    </section>
+    <section id="skills-content" class="center">
+        <a href="https://github.com/" target="_blank"><img
+                src="https://img.icons8.com/ios-glyphs/96/000000/github.png"></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/html-5.png"></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/css3.png"></a>
+        <a href="https://getbootstrap.com" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/bootstrap.png"></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/javascript.png"></a>
+        <a href="https://jquery.com" target="_blank"><img src="./assets/images/jquery-icon-25.png"></a>
+        <a href="https://firebase.google.com" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/firebase.png"></a>
+        <img src="https://img.icons8.com/color/96/000000/api.png">
+        <a href="https://developers.google.com/maps/documentation/javascript/places" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/google-maps.png"></a>
+        <a href="https://nodejs.org/en/" target="_blank"><img
+                src="https://img.icons8.com/color/96/000000/nodejs.png"></a>
+
+    </section>
+
+    <div id="projects"></div>
+    <section id="projects-title" class="teal center white-text">
+        <h2>Projects</h2>
+    </section>
+
     <div class="container">
 
-        <img src="./assets/images/SmileyJare.png" id="me" alt="avatar">
 
-        <div class="card flat teal">
-            <div class="card-image">
-                <a class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
-                        class="material-icons">face</i></a>
-            </div>
-            <div class="card-content white-text">
-                <span class="card-title white-text">About Me</span>
-                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                    require little markup to use effectively.</p>
-            </div>
-        </div>
-
-        <div class="card horizontal">
-            <div class="card-image">
-                <img src="./assets/images/pokeball.png">
-            </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <span class="card-title">Hangémon</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+        <div class="col m6 s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <a href="https://jaronrayj.github.io/hang2" target="_blank"> <img
+                            src="./assets/images/pokeball.png"></a>
                 </div>
-                <div class="card-action">
-                    <a href="https://jaronrayj.github.io/hang2/" target="_blank">Catch 'em All!</a>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">Hangémon</span>
+                        <p>Catch 'em all, hangman style! Find a wild Pokémon and type the letters to catch it and add it
+                            to
+                            your party.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://jaronrayj.github.io/hang2/" target="_blank">Catch 'em All!</a>
+                        <a href="https://github.com/jaronrayj/hang2" target="_blank"
+                            class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">code</i></a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="card horizontal">
-            <div class="card-image">
-                <img src="./assets/images/ff7decal.jpg">
-            </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <span class="card-title">Final Fantasy 7 Battle Royale</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+        <div class="col m6 s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <a href="https://jaronrayj.github.io/rpg-ff7" target="_blank"> <img
+                            src="./assets/images/ff7decal.jpg"></a>
                 </div>
-                <div class="card-action">
-                    <a href="https://jaronrayj.github.io/rpg-ff7/" target="_blank">Be The Last Man Standing!</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card horizontal">
-            <div class="card-image">
-                <img src="./assets/images/check_out.gif">
-            </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <span class="card-title">Giftastic</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.</p>
-                </div>
-                <div class="card-action">
-                    <a href="https://jaronrayj.github.io/giftastic/" target="_blank">Gif it up!</a>
-                    <a href="https://github.com/jaronrayj/giftastic" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
-                        class="material-icons">code</i></a>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">Final Fantasy 7 Battle Royale</span>
+                        <p>Final Fantasy 7, battle royale style! Be the last man/woman standing. Choose carefully which
+                            order you
+                            fight the other players, otherwise you won't be victorious.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://jaronrayj.github.io/rpg-ff7/" target="_blank">Be The Last Man Standing!</a>
+                        <a href="https://github.com/jaronrayj/rpg-ff7" target="_blank"
+                            class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">code</i></a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="card horizontal">
-            <div class="card-image">
-                <img src="./assets/images/rock_paper_scissors.jpg">
+        <div class="col m6 s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <a href="https://jaronrayj.github.io/giftastic" target="_blank"> <img
+                            src="./assets/images/check_out.gif"></a>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">Giftastic</span>
+                        <p>Utilizing Giphy.com API, quickly enable searching through gifs, saving favorities to your
+                            local
+                            storage and copying them to share with others.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://jaronrayj.github.io/giftastic/" target="_blank">Gif it up!</a>
+                        <a href="https://github.com/jaronrayj/giftastic" target="_blank"
+                            class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">code</i></a>
+                    </div>
+                </div>
             </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <span class="card-title">Rock Paper Scissors Multiplayer</span>
-                    <p>Utilizing Google Firebase to store data on a server and display it for both users. Play with a
-                        friend, or open up it in two tabs to play against yourself. See if you can win!</p>
+        </div>
+        <div class="col m6 s12">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <a href="https://jaronrayj.github.io/rps_multiplayer" target="_blank"> <img
+                            src="./assets/images/rock_paper_scissors.jpg"></a>
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <span class="card-title">Rock Paper Scissors Multiplayer</span>
+                        <p>Utilizing Google Firebase to store data on a server and display it for both users. Play with
+                            a
+                            friend, or open up it in two tabs to play against yourself. See if you can figure out with
+                            your
+                            other half is thinking.</p>
                     </div>
                     <div class="card-action">
                         <a href="https://jaronrayj.github.io/rps_multiplayer/" target="_blank">Rock, Paper....Spock?</a>
-                        <a href="https://github.com/jaronrayj/rps_multiplayer" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
-                            class="material-icons">code</i></a>
+                        <a href="https://github.com/jaronrayj/rps_multiplayer" target="_blank"
+                            class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i
+                                class="material-icons">code</i></a>
                     </div>
+                </div>
             </div>
         </div>
 
     </div>
 
-    <!-- * Main JS File -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/javascript/main.js"></script>
+    <div id="contact"></div>
+    <section id="contact-title" class="teal center white-text">
+        <h2>About Me</h2>
+    </section>
+
+    <div class="container">
+
+
+        <div class="card flat teal">
+            <div class="card-image">
+
+            </div>
+            <div class="card-content white">
+                <p>I'm a former cook gone rogue in the computer industry. Currently, I am working at Instructure as a
+                    Customer Success Manager/Implementation Consultant as well as schooling through the
+                    University of Utah partnered with Trilogy Education Services to become a Full Stack Web Developer. I
+                    have a passion for food, my country, and my fellow man.</p>
+
+                <br>
+
+                <p>You can find me in my spare time cooking with my family, shooting some hoops, or killing bad guys on
+                    my Nintendo Switch.</p>
+                <div class="card-action">
+                    <a href="mailto:jaronjohnson14@gmail.com" class="waves-effect waves-light btn"><i
+                            class="material-icons left">email</i>Shoot me an email</a>
+                    <a href="https://docs.google.com/document/d/1XM24U95VMEv82wor1VUhcwjZAu02l1gjDrce68CLdwg/edit?usp=sharing"
+                        target="_blank" class="waves-effect waves-light btn"><i
+                            class="material-icons left">info</i>Check out my resume</a>
+                </div>
+            </div>
+        </div>
+
+        <a href=""></a>
+
+        <a href="https://icons8.com/" target="_blank">Icons by Icons8</a>
+
+        <!-- * Main JS File -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./assets/javascript/main.js"></script>
+    </div>
 </body>
 
 </html>
