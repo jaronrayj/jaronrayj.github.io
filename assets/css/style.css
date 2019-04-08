@@ -25,13 +25,30 @@ body {
     border-radius: 50%;
 }
 
-#me{
+#me {
     top: 150px;
     left: 25%;
     position: absolute;
 }
 
-#quote{
+@media only screen and (max-width: 713px) {
+    #me {
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    #quote{
+        position: relative;
+        top: ;
+        left: 0;
+        right: 7em;
+    }
+
+}
+
+#quote {
     position: relative;
     top: 3em;
     left: 2em;
@@ -41,7 +58,9 @@ body {
     margin: 0;
 }
 
-#skills, #projects, #contact {
+#skills,
+#projects,
+#contact {
     position: relative;
     bottom: 64px;
 }
@@ -60,25 +79,19 @@ body {
     bottom: 25px;
 }
 
-.nav {
-
-}
+.nav {}
 
 section {
     width: 100%;
     border: 1px solid black;
 }
 
-#kiddos{
-    
-}
-
-#resume{
+#resume {
     margin-left: 10px;
     background-color: #F44336;
 }
 
-#email{
+#email {
     background-color: #F44336;
 }
 
