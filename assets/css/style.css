@@ -39,13 +39,15 @@ body {
 
 @media only screen and (max-width: 590px) {
 
-    #quote{
+    #quote {
         position: relative;
-        top: ;
-        left: 0;
-        right: 7em;
+        left: -3em !important;
+        top: 1em !important;
     }
 
+    #me {
+        left: 3em;
+    }
 }
 
 #quote {
@@ -67,12 +69,19 @@ body {
 
 #skills-content {
     padding: 20px;
-    background-color: white;
+    /* background-color: white; */
     border: none;
+}
+
+.icons {
+    /* background: white; */
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card {
     font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-floating.btn-large.halfway-fab {
@@ -84,6 +93,7 @@ body {
 section {
     width: 100%;
     border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #resume {
